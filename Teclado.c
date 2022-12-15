@@ -1,9 +1,3 @@
-/*
- * File:   Teclado.c
- * Author: 37306869841
- *
- * Created on 13 de Setembro de 2022, 08:12
- */
 
 #include <xc.h>
 #include "config.h"
