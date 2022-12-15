@@ -1,9 +1,4 @@
-/*
- * File:   Balaca.c
- * Author: 37306869841
- *
- * Created on 16 de Setembro de 2022, 08:39
- */
+
 #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator: High-speed crystal/resonator on RA6/OSC2/CLKOUT and RA7/OSC1/CLKIN)
 #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled and can be enabled by SWDTEN bit of the WDTCON register)
 #pragma config PWRTE = ON       // Power-up Timer Enable bit (PWRT enabled)
