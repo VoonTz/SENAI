@@ -1,11 +1,3 @@
-/*
- * File:   semafaro.c
- * Author: 37306869841
- *
- * Created on 8 de Novembro de 2022, 09:13
- */
-
-
 #include <xc.h>
 #include "lib_v01.h"
 #include "config.h"
