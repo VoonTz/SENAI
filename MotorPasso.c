@@ -1,9 +1,3 @@
-/*
- * File:   MotorPasso.c
- * Author: 37306869841
- *
- * Created on 23 de Agosto de 2022, 08:07
- */
 
 #pragma config FOSC = HS        // Oscillator Selection bits (HS oscillator: High-speed crystal/resonator on RA6/OSC2/CLKOUT and RA7/OSC1/CLKIN)
 #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled and can be enabled by SWDTEN bit of the WDTCON register)
@@ -59,9 +53,9 @@ void main(void)
     
     while(1)
     {
-        mPassoEsq(180);    // andar até 180°
+        mPassoEsq(180);    // andar atÃ© 180Â°
         
-        mPassoDir(180);    // andar até 180°
+        mPassoDir(180);    // andar atÃ© 180Â°
         __delay_ms(2000); // 2s
         
     }
